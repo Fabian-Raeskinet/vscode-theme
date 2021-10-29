@@ -1,0 +1,43 @@
+{
+	"name": "gckn-theme",
+	"displayName": "getCodingKnowledge Theme",
+	"description": "Le thème que j'utilise pour le développement en général",
+	"publisher": "aolland",
+	"version": "1.0.0",
+	"icon": "images/icon.png",
+	"license": "MIT",
+	"repository": {
+		"url": "https://github.com/aolland/gckn-theme",
+		"type": "git"
+	},
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Perso",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gckn-perso2.json"
+			},
+			{
+				"label": "Perso Dark",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gckn-perso.json"
+			},
+			{
+				"label": "Record",
+				"uiTheme": "vs-dark",
+				"path": "./themes/gckn-record.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "1f0dd2f8-c28e-40c3-a0dc-3551d7e6030f",
+		"publisherId": "ffed8ccd-2a82-4ff3-9a21-b3e443b8e4b0",
+		"publisherDisplayName": "aolland"
+	}
+}
